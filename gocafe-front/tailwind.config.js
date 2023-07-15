@@ -6,17 +6,20 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
+    "./node_modules/flowbite/**/*.js",
+  ],
+  plugins: [
+    require('flowbite/plugin'),
   ],
   theme: {
     colors: {
-      'green':        '#809A2C',
-      'red':          '#F96923',
-      'blue':         '#6DBEEB',
-      'white':        '#EEEBE5',
-      'black':        '#444444',
-      'green-dark':   '#5F7312',
-      'green-light':  '#C2D18C',
-
+      'green': '#809A2C',
+      'red': '#F96923',
+      'blue': '#6DBEEB',
+      'white': '#EEEBE5',
+      'black-brand': '#444444',
+      'green-dark': '#5F7312',
+      'green-light': '#C2D18C',
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',
@@ -32,8 +35,10 @@ module.exports = {
       scale: {
         '175': '1.75',
         '200': '2.00',
+      },
+      backgroundImage: {
+        'texture': "url('/img/hero-pattern.svg')",
       }
     },
   },
-  plugins: [],
 }
