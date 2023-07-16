@@ -1,9 +1,9 @@
 <template>
-  <div class="text-green-dark">
+  <div class="text-black-brand">
     <img :src=photo class="max-h-72 rounded-lg hover:scale-125 duration-300">
     <div class="grid grid-cols-2 items-end">
       <h2 class="xl:text-lg lg:text-base font-bold mt-2">{{ name }}</h2>
-      <div class="text-black font-light">
+      <div class="font-light">
         <span>&#x20bd;{{ price }} </span> / <span>{{ weight }} гр.</span>
       </div>
     </div>

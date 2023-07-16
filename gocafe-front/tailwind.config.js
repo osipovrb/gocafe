@@ -13,10 +13,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'green': '#809A2C',
-      'red': '#F96923',
-      'blue': '#6DBEEB',
-      'white': '#EEEBE5',
+      'green-brand': '#809A2C',
+      'red-brand': '#F96923',
+      'blue-brand': '#6DBEEB',
+      'white-brand': '#EEEBE5',
       'black-brand': '#444444',
       'green-dark': '#5F7312',
       'green-light': '#C2D18C',

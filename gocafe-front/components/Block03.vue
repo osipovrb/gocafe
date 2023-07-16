@@ -1,8 +1,8 @@
 <template>
-  <div class="mt-5 pt-5 bg-[url('/texture.png')]">
-    <div class="backdrop-blur-sm pb-5">
+  <div class="mt-10 bg-[url('/texture.png')]">
+    <div class="backdrop-blur-sm pb-5 bg-white-brand/50">
       <div class="container mx-auto">
-        <div>
+        <div class="pt-5">
           <h1 class="text-3xl text-black-brand">
             Как подписаться на сбалансированные рационы
           </h1>

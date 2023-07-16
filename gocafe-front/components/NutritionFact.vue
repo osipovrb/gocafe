@@ -1,9 +1,9 @@
 <template>
   <div class="w-full">
-    <div class="w-full text-red text-sm font-light">
+    <div class="w-full text-red text-sm font-light" :class="{ 'text-red-brand': !unit }">
       {{ value }} {{ unit }}
     </div>
-    <div class="text-sm font-light">
+    <div class="text-sm font-light" :class="{ 'text-red-brand': !unit }">
       {{ name }}
     </div>
   </div>
