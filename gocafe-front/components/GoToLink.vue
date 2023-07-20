@@ -1,10 +1,8 @@
 <template>
-  <div class="cursor-pointer text-underline font-bold text-xl hover:scale-125 duration-300" @click="goTo(anchor)">
-    <span class="text-green-brand">[&nbsp;</span>
-    <span class="text-green-dark">
+  <div class="cursor-pointer bg-green-dark text-white-brand self-center p-2 pl-6 pr-6 rounded-lg drop-shadow text-lg font-light hover:scale-125 duration-300" @click="goTo(anchor)">
+    <span class="text-green-light">
       <slot />
     </span>
-    <span class="text-green-brand">&nbsp;]</span>
   </div>
 </template>
 
